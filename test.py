@@ -19,7 +19,7 @@ def prepare_data(df,forecast_col,forecast_out,test_size):
 
 df = pd.read_csv("BTC-USD.csv")
 
-forecast_col = 'Close'
+forecast_col = 'Close'sgfedfg
 forecast_out = 5
 test_size = 0.2
 
