@@ -14,8 +14,7 @@ def prepare_data(df,forecast_col,forecast_out,test_size):
     y = np.array(label)  # assigning Y
     X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=test_size, random_state=0) #cross validation
 
-    return [X_train,X_test , Y_train, Y_test , X_lately
-
+    return [X_train,X_test , Y_train, Y_test , X_lately]
 
 
 df = pd.read_csv("BTC-USD.csv")
