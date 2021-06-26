@@ -37,4 +37,3 @@ response['test_score']=score
 response['forecast_set']=forecast
 
 print(response)
-a = 2
